@@ -200,49 +200,53 @@ int main(const int argc, const char *const argv[])
 		case START:
 			if (currentButtonValue)
 			{
-				buttonState = PRESSED;				// Initial case transition to PRESSED if the button pin reads HIGH 
+				// Initial case transition to PRESSED if the button pin reads HIGH 
+				buttonState = PRESSED;
 			}
 			else
 			{
-				buttonState = UNPRESSED;			// Else if button is not pressed transition to UNPRESSED
+				// Else if button is not pressed transition to UNPRESSED
+				buttonState = UNPRESSED;
 			}
 			break;
 
 		case PRESSED:
-
-			if (!currentButtonValue && lastButtonValue) 	// button was pressed in previous loop and has been released -> write a command to the communication file based on the previous state of the
+			// button was pressed in previous loop and has been released -> write a command to the communication file based on the previous state
+			if (!currentButtonValue && lastButtonValue) 	
 			{
-				if (readCommunicationFile(commFilePath))	// if the previous command stored in the communication file is a 1 (locked)
+				// if the previous command stored in the communication file is a 1 (locked)
+				if (readCommunicationFile(commFilePath))
 				{
 					commFile = fopen(commFilePath, "w");	// Open the communication file
-                    fprintf(commFile, "0");					// Write a 0 to the communication file indicating that the new command is to unlock the door
-					fclose(commFile);						// Close the communication file to finish writing
+					fprintf(commFile, "0");			// Write a 0 to the communication file indicating that the new command is to unlock the door
+					fclose(commFile);			// Close the communication file to finish writing
 
 					// Write to the log file that a command has been written to the communication file to unlock the door
-                    getTime(time);
+                    			getTime(time);
 					logFile = fopen(keyLogFilePath, "a");
-                    PRINT_MSG(logFile, time, programName, "Wrote command to unlock the door to communication file\n");
-					fclose(logFile);     					// Close the log file to finish writing
+                    			PRINT_MSG(logFile, time, programName, "Wrote command to unlock the door to communication file\n");
+					fclose(logFile);     			// Close the log file to finish writing
 
-					clearPin(gpio, RED_LED);				// Turn off RED_LED
-                    setPin(gpio, GREEN_LED);				// Turn on GREEN_LED to indicate message sent to unlock
-                }
-                else 										// if the previous command stored in the communication file is a 0 (unlocked)
-                {
+					clearPin(gpio, RED_LED);		// Turn off RED_LED
+                  		  	setPin(gpio, GREEN_LED);		// Turn on GREEN_LED to indicate message sent to unlock
+               			}
+              			else 						// if the previous command stored in the communication file is a 0 (unlocked)
+                		{
 					commFile = fopen(commFilePath, "w");	// Open the communication file
-                    fprintf(commFile, "1");					// Write a 1 to the communication file indicating that the new command is to lock the door
-					fclose(commFile);						// Close the communication file to finish writing
+					fprintf(commFile, "1");			// Write a 1 to the communication file indicating that the new command is to lock the door
+					fclose(commFile);			// Close the communication file to finish writing
 
 					// Write to the log file that a command has been written to the communication file to lock the door
-                    getTime(time);
+                    			getTime(time);
 					logFile = fopen(keyLogFilePath, "a");
-                    PRINT_MSG(logFile, time, programName, "Wrote command to lock the door to communication file\n");
-					fclose(logFile);						// Close the log file to finish writing
-
-                    clearPin(gpio, GREEN_LED);				// Turn off GREEN_LED
-                    setPin(gpio, RED_LED);					// Turn on RED_LED to indicate message sent to lock
-                }
-                buttonState = UNPRESSED;
+					PRINT_MSG(logFile, time, programName, "Wrote command to lock the door to communication file\n");
+					fclose(logFile);			// Close the log file to finish writing
+					
+					clearPin(gpio, GREEN_LED);		// Turn off GREEN_LED
+					setPin(gpio, RED_LED);			// Turn on RED_LED to indicate message sent to lock
+				}
+				
+				buttonState = UNPRESSED;
 			}
 			break;
 
@@ -250,14 +254,14 @@ int main(const int argc, const char *const argv[])
 
 			if (currentButtonValue && !lastButtonValue) 	// button is pressed and was pressed in the previous loop
 			{
-				buttonState = PRESSED;						// Simply change the buttonState to pressed as commands are only written to the communication file upon button release
+				buttonState = PRESSED;			// Simply change the buttonState to pressed as commands are only written to the communication file upon button release
 			}
 			break;
 		}
-		lastButtonValue = currentButtonValue;				// Assign current button state to previous button state for next iteration
+		lastButtonValue = currentButtonValue;			// Assign current button state to previous button state for next iteration
 
 
-		ioctl(watchdog, WDIOC_KEEPALIVE, 0);	// kick the watchdog and log that the watchdog was updated
+		ioctl(watchdog, WDIOC_KEEPALIVE, 0);			// kick the watchdog and log that the watchdog was updated
 		getTime(time);
 		logFile = fopen(keyLogFilePath, "a");
 		PRINT_MSG(logFile, time, programName, "The Watchdog was updated\n\n");
@@ -268,7 +272,7 @@ int main(const int argc, const char *const argv[])
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	logFile = fopen(keyLogFilePath, "a");	
 	
-	write(watchdog, "V", 1);	// write to the watchdog to let it know to stop its countdown
+	write(watchdog, "V", 1);		// write to the watchdog to let it know to stop its countdown
 	getTime(time);
 	PRINT_MSG(logFile, time, programName, "The Watchdog was disabled\n\n");
 
