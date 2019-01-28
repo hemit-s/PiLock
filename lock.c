@@ -232,11 +232,11 @@ int main(const int argc, const char *const argv[])
 		case START:
 			if (currentButtonValue)					
 			{
-				buttonState = PRESSED;				// Initial case transition to PRESSED if the button pin reads HIGH 
+				buttonState = PRESSED;		// Initial case transition to PRESSED if the button pin reads HIGH 
 			}
 			else
 			{
-				buttonState = UNPRESSED;			// Else if button is not pressed transition to UNPRESSED
+				buttonState = UNPRESSED;	// Else if button is not pressed transition to UNPRESSED
 			}
 			break;
 
@@ -247,28 +247,28 @@ int main(const int argc, const char *const argv[])
 				if (readCommunicationFile(commFilePath))	// if the previous command stored in the communication file is a 1 (locked)
 				{
 					commFile = fopen(commFilePath, "w");	// Open the communication file
-                    fprintf(commFile, "0");					// Write a 0 to the communication file indicating that the new command is to unlock the door
-					fclose(commFile);						// Close the communication file to finish writing
+                    			fprintf(commFile, "0");			// Write a 0 to the communication file indicating that the new command is to unlock the door
+					fclose(commFile);			// Close the communication file to finish writing
 
 					// Write to the log file that a command has been written to the communication file to unlock the door
-                    getTime(time);
+					getTime(time);
 					logFile = fopen(lockLogFilePath, "a");
-                    PRINT_MSG(logFile, time, programName, "Wrote command to unlock the door to communication file\n");
-					fclose(logFile);     					// Close the log file to finish writing
-                }
-                else 										// if the previous command stored in the communication file is a 0 (unlocked)
-                {
+					PRINT_MSG(logFile, time, programName, "Wrote command to unlock the door to communication file\n");
+					fclose(logFile);     			// Close the log file to finish writing
+				}
+				else 										// if the previous command stored in the communication file is a 0 (unlocked)
+				{
 					commFile = fopen(commFilePath, "w");	// Open the communication file
-                    fprintf(commFile, "1");					// Write a 1 to the communication file indicating that the new command is to lock the door
-					fclose(commFile);						// Close the communication file to finish writing
+					fprintf(commFile, "1");			// Write a 1 to the communication file indicating that the new command is to lock the door
+					fclose(commFile);			// Close the communication file to finish writing
 
 					// Write to the log file that a command has been written to the communication file to lock the door
-                    getTime(time);
+					getTime(time);
 					logFile = fopen(lockLogFilePath, "a");
-                    PRINT_MSG(logFile, time, programName, "Wrote command to lock the door to communication file\n");
-					fclose(logFile);						// Close the log file to finish writing
-                }
-                buttonState = UNPRESSED;
+					PRINT_MSG(logFile, time, programName, "Wrote command to lock the door to communication file\n");
+					fclose(logFile);			// Close the log file to finish writing
+                		}
+                		buttonState = UNPRESSED;
 			}
 			break;
 
@@ -276,11 +276,11 @@ int main(const int argc, const char *const argv[])
 
 			if (currentButtonValue && !lastButtonValue) 	// button is pressed and was pressed in the previous loop
 			{
-				buttonState = PRESSED;						// Simply change the buttonState to pressed as commands are only written to the communication file upon button release
+				buttonState = PRESSED;			// Simply change the buttonState to pressed as commands are only written to the communication file upon button release
 			}
 			break;
 		}
-		lastButtonValue = currentButtonValue;				// Assign current button state to previous button state for next iteration
+		lastButtonValue = currentButtonValue;			// Assign current button state to previous button state for next iteration
 
 		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -290,7 +290,7 @@ int main(const int argc, const char *const argv[])
 		{
 		case START:
 
-			if (currentCommand)						// If the current command received is 1 or to lock the door
+			if (currentCommand)				// If the current command received is 1 or to lock the door
 			{
 				// Write to the log file that a command to lock the door has been received
 				logFile = fopen(lockLogFilePath, "a");
@@ -341,7 +341,7 @@ int main(const int argc, const char *const argv[])
 
 		case UNLOCKED:
 
-			if (currentCommand)			// Continously check if a command to lock the door is received from the communication file
+			if (currentCommand)		// Continously check if a command to lock the door is received from the communication file
 			{
 				// If a command is received to lock the door but the PHOTODIODE is not reading that the laser is hitting it (i.e. reading that the door is not closed)
 				if (!readPin(gpio, PHOTODIODE))
@@ -360,7 +360,7 @@ int main(const int argc, const char *const argv[])
 			break;
 
 		case WAITING_TO_LOCK:
-			if (!currentCommand) 		// Even in the WAITING TO LOCK state, continously check if a command to unlock the door is received from the communication file
+			if (!currentCommand) 	// Even in the WAITING TO LOCK state, continously check if a command to unlock the door is received from the communication file
 			{
 				// If so print a message to the log file that a command has been received to unlock the door
 				getTime(time);
@@ -380,8 +380,8 @@ int main(const int argc, const char *const argv[])
 
 			if (readPin(gpio, PHOTODIODE)) 		// Continously read the photodiode to see if the laser hits the photodiode (i.e. the door has been closed)
 			{
-				usleep(1000000);				// Sleep for 1 second to prevent the door from jamming on the lock if it is slammed or swung really hard
-				lock(gpio);						// Execute the command to lock the door
+				usleep(1000000);		// Sleep for 1 second to prevent the door from jamming on the lock if it is slammed or swung really hard
+				lock(gpio);			// Execute the command to lock the door
 
 				// Write to the log file that the door was successfully locked
 				getTime(time);
@@ -427,21 +427,21 @@ int main(const int argc, const char *const argv[])
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void lock(GPIO_Handle gpio)
 {
-	clearPin(gpio, GREEN_LED);				// Turn off GREEN LED
+	clearPin(gpio, GREEN_LED);			// Turn off GREEN LED
 	gpioServo(SERVO, LOCKED_FREQUENCY);		// Turn the servo to the locked state
-	setPin(gpio, RED_LED);					// Turn on the RED LED to indicate locked state
+	setPin(gpio, RED_LED);				// Turn on the RED LED to indicate locked state
 }
 
 void unlock(GPIO_Handle gpio)
 {
-	clearPin(gpio, RED_LED);				// Turn off the RED LED
-	gpioServo(SERVO, UNLOCKED_FREQUENCY);	// Turn the servo to the unlocked state
-	setPin(gpio, GREEN_LED);				// Turn on the GREEN LED to indicate unlocked state
+	clearPin(gpio, RED_LED);			// Turn off the RED LED
+	gpioServo(SERVO, UNLOCKED_FREQUENCY);		// Turn the servo to the unlocked state
+	setPin(gpio, GREEN_LED);			// Turn on the GREEN LED to indicate unlocked state
 }
 
 void cleanup(GPIO_Handle gpio)
 {
-	clearPin(gpio, RED_LED);				// Clear RED LED / turn it off
-	clearPin(gpio, GREEN_LED);				// Clear GREEN LED / turn it off
+	clearPin(gpio, RED_LED);			// Clear RED LED / turn it off
+	clearPin(gpio, GREEN_LED);			// Clear GREEN LED / turn it off
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
