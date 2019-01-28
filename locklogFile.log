@@ -1,0 +1,413 @@
+11-27-2018 14:53:00. : demoLock : # The program has started. 
+
+11-27-2018 14:53:00. : demoLock : # The log file has been opened.
+
+11-27-2018 14:53:01. : demoLock : The GPIO pins have been initialized
+
+11-27-2018 14:53:01. : demoLock : Pin 14, 15, 18 have been set to output
+ Pin 23, 24 have been set to input
+
+11-27-2018 14:59:26. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 14:59:37. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 14:59:37. : demoLock : The door has been UNLOCKED. 
+11-27-2018 14:59:39. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 14:59:39. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 14:59:26. : demoLock : # The program has started. 
+
+11-27-2018 14:59:26. : demoLock : # The log file has been opened.
+
+11-27-2018 14:59:26. : demoLock : The GPIO pins have been initialized
+
+11-27-2018 14:59:26. : demoLock : Pin 14, 15, 18 have been set to output
+ Pin 23, 24 have been set to input11-27-2018 15:05:30. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:05:47. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:05:47. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:05:52. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:05:52. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:05:55. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:05:55. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:06:00. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:06:00. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:05:29. : demoLock : # The program has started. 
+
+11-27-2018 15:05:29. : demoLock : # The log file has been opened.
+
+11-27-2018 15:05:29. : demoLock : The GPIO pins have been initialized
+
+11-27-2018 15:05:29. : demoLock : Pin 14, 15, 18 have been set to output
+ Pin 23, 24 have been set to input
+
+11-27-2018 15:08:48. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:08:48. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:08:54. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:08:54. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:08:56. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:08:56. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:08:57. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:08:57. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:08:59. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:08:59. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:09:00. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:09:00. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:09:02. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:09:02. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:09:03. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:09:03. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:09:04. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:09:04. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:09:06. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:09:06. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:08:48. : demoLock : # The program has started. 
+
+11-27-2018 15:08:48. : demoLock : # The log file has been opened.
+
+11-27-2018 15:08:48. : demoLock : The GPIO pins have been initialized
+
+11-27-2018 15:08:48. : demoLock : Pin 14, 15, 18 have been set to output
+ Pin 23, 24 have been set to input
+
+11-27-2018 15:12:15. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:12:15. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:12:29. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:12:29. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:12:15. : demoLock : # The program has started. 
+
+11-27-2018 15:12:15. : demoLock : # The log file has been opened.
+
+11-27-2018 15:12:15. : demoLock : The GPIO pins have been initialized
+
+11-27-2018 15:12:15. : demoLock : Pin 14, 15, 18 have been set to output
+ Pin 23, 24 have been set to input
+
+11-27-2018 15:17:26. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:17:33. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:17:33. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:17:34. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:17:34. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:17:26. : demoLock : # The program has started. 
+
+11-27-2018 15:17:26. : demoLock : # The log file has been opened.
+
+11-27-2018 15:17:26. : demoLock : The GPIO pins have been initialized
+
+11-27-2018 15:17:26. : demoLock : Pin 14, 15, 18 have been set to output
+ Pin 23, 24 have been set to input
+
+11-27-2018 15:37:18. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:20. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:20. : demoLock : The door has been LOCKED. 
+11-27-2018 15:37:23. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:37:23. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:37:24. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:24. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:37:25. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:25. : demoLock : The door has been LOCKED. 
+11-27-2018 15:37:27. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:37:27. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:37:29. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:29. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:37:30. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:30. : demoLock : The door has been LOCKED. 
+11-27-2018 15:37:32. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:37:32. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:37:33. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:33. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:37:34. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:34. : demoLock : The door has been LOCKED. 
+11-27-2018 15:37:36. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:37:36. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:37:37. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:37. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:37:38. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:38. : demoLock : The door has been LOCKED. 
+11-27-2018 15:37:39. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:37:39. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:37:41. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:41. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:37:43. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:43. : demoLock : The door has been LOCKED. 
+11-27-2018 15:37:44. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:37:44. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:37:46. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:46. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:37:47. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:47. : demoLock : The door has been LOCKED. 
+11-27-2018 15:37:48. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:37:48. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:37:50. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:50. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:37:51. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:51. : demoLock : The door has been LOCKED. 
+11-27-2018 15:37:53. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:37:53. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:37:55. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:55. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:37:56. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:37:56. : demoLock : The door has been LOCKED. 
+11-27-2018 15:38:01. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:38:01. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:37:18. : demoLock : # The program has started. 
+
+11-27-2018 15:37:18. : demoLock : # The log file has been opened.
+
+11-27-2018 15:37:18. : demoLock : The GPIO pins have been initialized
+
+11-27-2018 15:37:18. : demoLock : Pin 14, 15, 18 have been set to output
+ Pin 23, 24 have been set to input
+
+11-27-2018 15:41:17. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:41:17. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:41:22. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:41:22. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:41:23. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:41:23. : demoLock : The door has been LOCKED. 
+11-27-2018 15:41:25. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:41:25. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:41:27. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:41:27. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:41:28. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:41:28. : demoLock : The door has been LOCKED. 
+11-27-2018 15:41:30. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:41:30. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:41:33. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:41:33. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:41:34. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:41:34. : demoLock : The door has been LOCKED. 
+11-27-2018 15:41:40. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:41:40. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:41:44. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:41:44. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:41:45. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:41:45. : demoLock : The door has been LOCKED. 
+11-27-2018 15:41:17. : demoLock : # The program has started. 
+
+11-27-2018 15:41:17. : demoLock : # The log file has been opened.
+
+11-27-2018 15:41:17. : demoLock : # The Watchdog file has been opened
+
+11-27-2018 15:41:17. : demoLock : # The Watchdog time limit has been set
+
+11-27-2018 15:41:17. : demoLock : The GPIO pins have been initialized
+
+11-27-2018 15:41:17. : demoLock : Pin 14, 15, 18 have been set to output
+ Pin 23, 24 have been set to input
+
+11-27-2018 15:55:01. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:02. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:02. : demoLock : The door has been LOCKED. 
+11-27-2018 15:55:07. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:55:07. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:55:08. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:08. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:55:09. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:09. : demoLock : The door has been LOCKED. 
+11-27-2018 15:55:10. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:55:10. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:55:11. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:11. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:55:12. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:12. : demoLock : The door has been LOCKED. 
+11-27-2018 15:55:13. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:55:13. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:55:15. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:15. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:55:16. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:16. : demoLock : The door has been LOCKED. 
+11-27-2018 15:55:17. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:55:17. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:55:19. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:19. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:55:20. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:20. : demoLock : The door has been LOCKED. 
+11-27-2018 15:55:21. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:55:21. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:55:22. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:22. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:55:24. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:24. : demoLock : The door has been LOCKED. 
+11-27-2018 15:55:25. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:55:25. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:55:27. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:27. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:55:28. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:28. : demoLock : The door has been LOCKED. 
+11-27-2018 15:55:29. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:55:29. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:55:31. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:31. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:55:32. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:32. : demoLock : The door has been LOCKED. 
+11-27-2018 15:55:34. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:55:34. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:55:36. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:36. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:55:37. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:37. : demoLock : The door has been LOCKED. 
+11-27-2018 15:55:38. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 15:55:38. : demoLock : The door has been UNLOCKED. 
+11-27-2018 15:55:40. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:40. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 15:55:41. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 15:55:41. : demoLock : The door has been LOCKED. 
+11-27-2018 15:55:01. : demoLock : # The program has started. 
+
+11-27-2018 15:55:01. : demoLock : # The log file has been opened.
+
+11-27-2018 15:55:01. : demoLock : The GPIO pins have been initialized
+
+11-27-2018 15:55:01. : demoLock : Pin 14, 15, 18 have been set to output
+ Pin 23, 24 have been set to input
+
+11-27-2018 16:07:46. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:07:47. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:07:47. : demoLock : The door has been LOCKED. 
+11-27-2018 16:07:53. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:07:53. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:07:54. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:07:54. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 16:07:55. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:07:55. : demoLock : The door has been LOCKED. 
+11-27-2018 16:07:59. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:07:59. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:08:00. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:08:00. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 16:08:01. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:08:01. : demoLock : The door has been LOCKED. 
+11-27-2018 16:08:07. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:08:07. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:08:08. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:08:08. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 16:08:09. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:08:09. : demoLock : The door has been LOCKED. 
+11-27-2018 16:08:14. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:08:14. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:08:17. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:08:17. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 16:08:18. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:08:18. : demoLock : The door has been LOCKED. 
+11-27-2018 16:08:19. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:08:19. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:07:46. : demoLock : # The program has started. 
+
+11-27-2018 16:07:46. : demoLock : # The log file has been opened.
+
+11-27-2018 16:07:46. : demoLock : The GPIO pins have been initialized
+
+11-27-2018 16:07:46. : demoLock : Pin 14, 15, 18 have been set to output
+ Pin 23, 24 have been set to input
+
+11-27-2018 16:08:47. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:08:47. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:08:52. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:08:52. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 16:08:53. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:08:53. : demoLock : The door has been LOCKED. 
+11-27-2018 16:08:54. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:08:54. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:08:55. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:08:55. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 16:08:56. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:08:56. : demoLock : The door has been LOCKED. 
+11-27-2018 16:08:56. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:08:56. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:08:59. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:08:59. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 16:09:00. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:09:00. : demoLock : The door has been LOCKED. 
+11-27-2018 16:09:05. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:09:05. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:09:09. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:09:09. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 16:09:10. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:09:10. : demoLock : The door has been LOCKED. 
+11-27-2018 16:09:13. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:09:13. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:08:47. : demoLock : # The program has started. 
+
+11-27-2018 16:08:47. : demoLock : # The log file has been opened.
+
+11-27-2018 16:08:47. : demoLock : The GPIO pins have been initialized
+
+11-27-2018 16:08:47. : demoLock : Pin 14, 15, 18 have been set to output
+ Pin 23, 24 have been set to input
+
+11-27-2018 16:20:36. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:20:37. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:20:37. : demoLock : The door has been LOCKED. 
+11-27-2018 16:20:44. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:20:44. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:20:46. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:20:46. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 16:20:48. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:20:48. : demoLock : The door has been LOCKED. 
+11-27-2018 16:20:53. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:20:53. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:20:55. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:20:55. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 16:20:56. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:20:56. : demoLock : The door has been LOCKED. 
+11-27-2018 16:21:05. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:21:05. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:21:07. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:21:07. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 16:21:08. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:21:08. : demoLock : The door has been LOCKED. 
+11-27-2018 16:20:36. : demoLock : # The program has started. 
+
+11-27-2018 16:20:36. : demoLock : # The log file has been opened.
+
+11-27-2018 16:20:36. : demoLock : The GPIO pins have been initialized
+
+11-27-2018 16:20:36. : demoLock : Pin 14, 15, 18 have been set to output
+ Pin 23, 24 have been set to input
+
+11-27-2018 16:30:20. : ome/pi/demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:30:21. : ome/pi/demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:30:21. : ome/pi/demoLock : The door has been LOCKED. 
+11-27-2018 16:30:20. : ome/pi/demoLock : # The program has started. 
+
+11-27-2018 16:30:20. : ome/pi/demoLock : # The log file has been opened.
+
+11-27-2018 16:30:20. : ome/pi/demoLock : The GPIO pins have been initialized
+
+11-27-2018 16:30:20. : ome/pi/demoLock : Pin 14, 15, 18 have been set to output
+ Pin 23, 24 have been set to input
+
+11-27-2018 16:35:01. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:35:02. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:35:02. : demoLock : The door has been LOCKED. 
+11-27-2018 16:35:14. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:35:14. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:35:15. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:35:15. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 16:35:16. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:35:16. : demoLock : The door has been LOCKED. 
+11-27-2018 16:35:17. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:35:17. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:35:19. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:35:19. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 16:35:20. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:35:20. : demoLock : The door has been LOCKED. 
+11-27-2018 16:35:22. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:35:22. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:35:24. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:35:24. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 16:35:25. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:35:25. : demoLock : The door has been LOCKED. 
+11-27-2018 16:35:26. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:35:26. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:35:29. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:35:29. : demoLock : The door is open, waiting until door is closed to lock 
+11-27-2018 16:35:30. : demoLock : Read communication file, received command to LOCK 
+11-27-2018 16:35:30. : demoLock : The door has been LOCKED. 
+11-27-2018 16:35:31. : demoLock : Read communication file, received command to UNLOCK 
+11-27-2018 16:35:31. : demoLock : The door has been UNLOCKED. 
+11-27-2018 16:35:01. : demoLock : # The program has started. 
+
+11-27-2018 16:35:01. : demoLock : # The log file has been opened.
+
+11-27-2018 16:35:01. : demoLock : The GPIO pins have been initialized
+
+11-27-2018 16:35:01. : demoLock : Pin 14, 15, 18 have been set to output
+ Pin 23, 24 have been set to input
+
